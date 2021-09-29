@@ -1,0 +1,19 @@
+#YAML Parser
+
+Yaml parser is a python utility to parse a yaml file and generate an /etc/fstab file based on that yaml.
+
+#Prerequisite
+Below mentioned Python packages are required to run this code
+re
+os
+yaml
+collections
+
+Packages other than yaml should be readily available
+
+#How to use
+
+1. Install the dependencies
+2. Please enter the location of yaml file and the location where you would like to place the fstab file (/etc by default) in the conf file.
+3. Please ensure the conf file is in the same folder as the main.py and the user executing it has all the required permissions
+4. Execute the python code with "python main.py"
